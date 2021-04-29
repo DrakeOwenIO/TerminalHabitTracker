@@ -13,7 +13,12 @@ habit::habit()
 }
 
 // Gets the user's streak
-void getStreak()
+void habit::getStreak()
 {
 
+}
+
+void habit::addToVector(habit habitToAdd)
+{
+    
 }

@@ -8,6 +8,7 @@
 #include <fstream>
 #include <iomanip>
 #include <vector>
+#include <string>
 #include "functions.h"
 #include "habits.h"
 
@@ -33,7 +34,14 @@ int printMenu()
     return userChoice;
 }
 
+// Create a habit and add it to the habit vector
 void createHabit()
 {
+    string habitName;
+    
+    cout << "Habit Name: ";
+    getline(cin, habitName);
+
+    habit newHabit(habitName);
 
 }
