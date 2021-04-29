@@ -2,7 +2,7 @@
 CC=g++ 
 CFLAGS=-Wall -g -std=c++11
 LFLAGS=-lm
-TARGET=PA2
+TARGET=run
 
 # This searchs the sub directory "src" for all the cpp files 
 C_SRCS := \

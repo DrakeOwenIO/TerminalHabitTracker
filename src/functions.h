@@ -5,6 +5,6 @@
 
 using namespace std;
 
-void printMenu();
+int printMenu();
 
 #endif /* FUNCTIONS_H */
