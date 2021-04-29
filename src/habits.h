@@ -19,6 +19,12 @@ class habit{
 
     public:
         habit();
+        habit(string habitName);
+
+        vector<habit *> allHabits;
+
+        void getStreak();
+        void addToVector(habit habitToAdd);
 };
 
 

@@ -11,6 +11,8 @@ v. 0.0.1
 #include <string>
 #include <vector>
 #include "src/functions.h"
+#include "src/habits.h"
+
 
 int main()
 {
@@ -25,7 +27,7 @@ int main()
     switch (menuChoice)
     {
     case 1:
-        
+        createHabit();
         break;
     
     default:
