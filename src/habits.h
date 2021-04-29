@@ -19,6 +19,9 @@ class habit{
 
     public:
         habit();
+        habit(string habitName);
+
+        void getStreak();
 };
 
 

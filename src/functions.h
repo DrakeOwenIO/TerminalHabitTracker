@@ -6,5 +6,6 @@
 using namespace std;
 
 int printMenu();
+void createHabit();
 
 #endif /* FUNCTIONS_H */

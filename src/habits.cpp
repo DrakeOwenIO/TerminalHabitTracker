@@ -11,3 +11,9 @@ habit::habit()
 {
 
 }
+
+// Gets the user's streak
+void getStreak()
+{
+
+}
